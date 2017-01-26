@@ -1,0 +1,40 @@
+.my-header {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(1, 1, 1, 0.5);
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  ul {
+    vertical-align: middle;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      transition: all 300ms ease;
+      &:hover {
+        font-size: 25px;
+      }
+
+      li {
+        display: inline;
+        padding: 20px;
+        margin-left: 40px;
+
+        &.active {
+          background-color: black;
+        }
+      }
+    }
+  }
+}

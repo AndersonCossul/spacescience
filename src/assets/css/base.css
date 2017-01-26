@@ -1,0 +1,101 @@
+body, html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: url("../layout/background.png") center/cover no-repeat; }
+
+.my-header {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(1, 1, 1, 0.5);
+  text-align: center;
+  color: #fff;
+  font-weight: 500; }
+  .my-header img {
+    display: inline-block;
+    vertical-align: middle; }
+  .my-header ul {
+    vertical-align: middle;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .my-header ul a {
+      text-decoration: none;
+      color: #fff;
+      transition: all 300ms ease; }
+      .my-header ul a:hover {
+        font-size: 25px; }
+      .my-header ul a li {
+        display: inline;
+        padding: 20px;
+        margin-left: 40px; }
+        .my-header ul a li.active {
+          background-color: black; }
+
+.home .content {
+  margin-top: 30px;
+  margin-right: 15%;
+  margin-left: 15%; }
+  .home .content .main-presentation {
+    display: flex;
+    align-items: center; }
+    .home .content .main-presentation .shuffle-text {
+      color: #fff;
+      text-align: center;
+      margin: auto; }
+      .home .content .main-presentation .shuffle-text h1 {
+        font-size: 50px; }
+      .home .content .main-presentation .shuffle-text h3 {
+        margin-top: -20px; }
+      .home .content .main-presentation .shuffle-text .btn-read-more {
+        width: 70%;
+        height: 50px;
+        background-color: black;
+        margin: auto;
+        display: flex;
+        cursor: pointer;
+        transition: all 300ms ease; }
+        .home .content .main-presentation .shuffle-text .btn-read-more:hover {
+          height: 60px;
+          font-size: 20px; }
+        .home .content .main-presentation .shuffle-text .btn-read-more p {
+          margin: auto; }
+  .home .content .featured-projects {
+    width: 100%; }
+    .home .content .featured-projects .featured-projects-header {
+      width: 100%;
+      background-color: rgba(1, 1, 1, 0.5);
+      text-align: center;
+      color: #888687;
+      height: 55px;
+      font-size: 10px;
+      display: flex; }
+      .home .content .featured-projects .featured-projects-header h1 {
+        margin: auto; }
+    .home .content .featured-projects .featured-projects-content {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      background-color: rgba(99, 0, 49, 0.5); }
+      .home .content .featured-projects .featured-projects-content a {
+        width: 25%;
+        transition: all 300ms ease; }
+        .home .content .featured-projects .featured-projects-content a img {
+          width: 100%;
+          height: 100%; }
+        .home .content .featured-projects .featured-projects-content a:hover {
+          opacity: 0.5; }
+
+.home .our-mission {
+  height: 160px;
+  background-color: #630031;
+  text-align: center;
+  color: #fff;
+  display: flex; }
+  .home .our-mission .text {
+    width: 40%;
+    font-size: 20px;
+    line-height: 20px;
+    margin: auto; }

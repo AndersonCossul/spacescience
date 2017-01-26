@@ -1,0 +1,99 @@
+.home {
+  .content {
+    margin-top: 30px;
+    margin-right: 15%;
+    margin-left: 15%;
+
+    .main-presentation {
+      display: flex;
+      align-items: center;
+
+      .shuffle-text {
+        color: #fff;
+        text-align: center;
+        margin: auto;
+
+        h1 {
+          font-size: 50px;
+        }
+
+        h3 {
+          margin-top: -20px;
+        }
+
+        .btn-read-more {
+          width: 70%;
+          height: 50px;
+          background-color: black;
+          margin: auto;
+          display: flex;
+          cursor: pointer;
+          transition: all 300ms ease;
+
+          &:hover {
+            height: 60px;
+            font-size: 20px;
+          }
+
+          p {
+            margin: auto;
+          }
+        }
+      }
+    }
+
+    .featured-projects {
+      width: 100%;
+
+      .featured-projects-header {
+        width: 100%;
+        background-color: rgba(1, 1, 1, 0.5);
+        text-align: center;
+        color: #888687;
+        height: 55px;
+        font-size: 10px;
+        display: flex;
+
+        h1 {
+          margin: auto;
+        }
+      }
+
+      .featured-projects-content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        background-color: rgba(99, 0, 49, 0.5);
+
+        a {
+          width: 25%;
+          transition: all 300ms ease;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+
+          &:hover{
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+
+  .our-mission {
+    height: 160px;
+    background-color: #630031;
+    text-align: center;
+    color: #fff;
+    display: flex;
+
+    .text {
+      width: 40%;
+      font-size: 20px;
+      line-height: 20px;
+      margin: auto;
+    }
+  }
+}
